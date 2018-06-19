@@ -13,6 +13,7 @@ void TakeACopy(std::string s) {
 //takes a reference, caller will see this.
 void TakeAReference(std::string& s) {
 	s = "TakeAReference";
+	d = 'Hassan';
 }
 
 //takes a pointer, caller will also see this.
